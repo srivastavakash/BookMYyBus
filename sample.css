@@ -1,0 +1,78 @@
+#main{
+    height:500px;
+    width:1350px;
+    background-image:url(logo2.jpg);
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 200px;
+    color:#f5b42c ;
+}
+
+body{
+    left: 0px;
+}
+#booking-table{
+    padding:10px;
+    border-collapse: collapse;
+}
+#form-container{
+    margin-left: 280px;
+    margin-top: 60px;
+    border: 2px soild purple;
+}
+.simple-text{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 8px;
+    
+}
+.text-box{
+    height: 30px;
+    width:200px;
+}
+#btn-submit{
+    width: 350px;
+    height: 35px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: orange;
+    margin-top: 10px;
+    border:none;
+    border-radius: 10px;
+}
+nav {
+    width: 98%;
+    height: 15px;
+    background-color: orange;
+    left: 0;
+    margin: 0;
+    padding: 1em;
+    border: 1px solid #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0px;
+  
+}
+   
+nav ul a {
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+
+footer{
+    margin-top: 80px;
+    background-color: orange;
+    height: 50px;
+}

@@ -1,0 +1,65 @@
+<html>
+    <style>
+    #main{
+        height: 400px;
+        width: 500px;
+        float: left;
+    }
+    #side{
+        height: 400px;
+        width: 600px;
+        margin-left: 500px; 
+        background-image: url(bus1.jpg);
+        background-repeat: no-repeat;
+    }
+    </style>
+     <head>
+            <title>Book My Bus</title>
+            <link rel="stylesheet" href="style.css">
+            
+        </head>
+    <body>
+        <div id="top-menu"></div>
+        <div id="header" style="height:100px">
+                    <img src="bus.png" style="height:70px;width:100px;margin-left:10px;float:left">
+                    <h1 style="margin-top:30px">B00k My Bus</h1>
+            </div>
+                <nav>
+                        <ul>
+                          <li><a href="ourfeatures.html">Explore our range</a></li>
+                          <li><a href="vehicles.html">Available Vehicles</a></li>
+                          <li><a href="vehicleroute.jsp"> Vehicle Route</a></li>
+                          <li style="background-color:#000;"><a href="BookCab.jsp" >Book My Bus</a></li>
+                          <li><a href="ourfeatures.html">Why Ride with us ?</a></li>
+                        </ul>
+                      </nav>
+    
+            <br>
+    
+        <div id="main">
+                <form action="./login.jsp" id="f">
+                    <table style="margin-left:50px">
+                        <tr><td><p style="font-size:20px;color:#ffffff">Login for more....</p><br></td></tr>
+                        <tr>
+                           
+                            <td>
+                                    <img src="mobile.png" alt="logo" height="30px" width="30px" style="margin-right:20px"> 
+                                <input type="text"  class="text-box1" name="mobno" placeholder="Mobile">
+                            </td>
+                        </tr>
+                        <tr>
+                                <td>
+                                <img src="key.png" alt="password"  height="30px" width="30px" style="margin-right:20px">
+                                <input type="password" name="pswrd"  class="text-box1" placeholder="Password">
+                                </td>
+                            </tr>
+                    </table>
+                    <br><br>
+                    <div><input type="submit" value="Login" id="btn-submit1" style="width:290px;margin-bottom:10px"></div> 
+                    <div><a href="Signup.html"><input type="button" value="New User ?" id="btn-submit1" style="width:290px"></a></div> <br>
+                    <a href="AdminLogin.html" class="simple-link">Administrator login</a>
+                    </form>
+        </div>
+        <div id="side"></div>
+    </body>
+</html>
